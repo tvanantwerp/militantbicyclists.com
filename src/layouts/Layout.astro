@@ -1,6 +1,6 @@
 ---
 import { getImage } from "astro:assets"
-import bg from '../assets/images/theorb.jpg';
+import bg from '../assets/images/militant-bicyclist.png';
 const optimizedBackgroundImage = await getImage({ src: bg })
 
 interface Props {
@@ -14,10 +14,10 @@ const { title } = Astro.props;
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="description" content="Do it you cowards" />
+		<meta name="description" content="Still waiting for those Bike Lobby paychecks..." />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta property="og:image" content="/theorb.jpg" />
+		<meta property="og:image" content="/militant-bicyclists.png" />
 		<title>{title}</title>
 	</head>
 	<body style={`background-image: url('${optimizedBackgroundImage.src}'); background-position: center; background-size: cover; min-height: 100vh;`}>
