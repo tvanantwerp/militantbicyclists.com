@@ -16,5 +16,9 @@
   },
   "devDependencies": {
     "sharp": "^0.34.5"
+  },
+  "packageManager": "pnpm@10.33.0",
+  "pnpm": {
+    "onlyBuiltDependencies": ["esbuild", "sharp"]
   }
 }
